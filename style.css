@@ -1,0 +1,270 @@
+/*Cores*/
+:root{
+    --AzulForte:#1e1e20;
+    --AzulFraco:#1e1e20;
+    --Branco:rgb(117, 114, 114);
+    --vermelhoFraco:#7b63ff;
+    --VermelhoFOrte:#4e409d;
+}
+/*End Cores*/
+
+/*Fonts*/
+@font-face {
+    font-family: Fortune;
+    src: url('fortune/Fortune.otf');
+}
+@font-face {
+    font-family: Futuristic;
+    src: url('Futuristic\ Stylish.otf');
+}
+/*End Fonts*/
+
+body{
+    margin: 0 auto;
+    background-color: rgb(203, 200, 200);
+}
+/*Hearder*/
+header{
+    width: 100%;
+    height: 100px;
+    background-color: var(--AzulForte);
+    color: var(--VermelhoFOrte);
+}header img{
+    margin-top: 15px;
+    height: 60px;
+    margin-left: 5px;
+    width: 10%;
+    border-radius: 10px;
+    float: left;
+}header h1{
+    float: left;
+    margin-left: 10px;
+    margin-top: 25px;
+    font-size: 40px;
+    font-family: futuristic;
+}
+/*End Header*/
+/*nav*/
+ nav{
+    width: 100%;
+}  ul{
+    list-style: none;
+    font-size: 20px;
+} li{
+    float: left;
+    margin-right: 45px;
+    margin-left:-30px ;
+    margin-top: -20px;
+} li #es{
+    float: right;
+    margin-right: 10px;
+} li a{
+    text-decoration: none;
+    color: black;
+} li a:hover{
+    color: var(--Branco);
+}li button{
+    border: none;
+    background-color: #0000;
+    height: 40px;
+    width: 100%;
+    color: black;
+
+}li button:hover{
+    background-color: var(--AzulForte);
+    color: white;
+}
+
+
+
+/*End nav*/
+
+
+
+/*Main*/
+main{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    background-color: var(--Branco);
+    margin-top: -100px;
+    justify-content: space-around;
+
+}main #div-text{
+    width: 30%;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 40px;
+}main #img-main{
+    width: 100%;
+    height: 300px;
+    margin-left: 100px;
+    margin-right: 40px;
+    margin-top: 40px;
+    border-radius: 18px;
+    box-shadow: 15px 10px 5px black;
+}main h1{
+    border: none;
+    border-bottom: red;
+}
+/*End Main*/
+
+/*Sobre*/
+
+#sobre{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--AzulFraco);
+    color: white;
+
+}#sobre #content{
+    height: 270px;
+    width: 20%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}#sobre #content #img-content{
+    width: 85%;
+    height:200px;
+    margin-left: 15px;
+    border-radius: 35px;
+    border: 5px solid black;
+
+}
+
+/*End sobre*/
+
+/*Acesso*/
+#acessar{
+    width: 100%;
+    height: 360px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+}
+#acessar #img-acessar{
+    width: 50%;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: -10px;
+    box-shadow: -15px 10px 5px  black;
+    border-radius: 10px;
+}
+/*Cadastro*/
+#cadastro{
+    width: 23%;
+    height: 320px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: var(--AzulForte);
+    color: white;
+
+    
+}#cadastro form input{
+    height: 20px;
+    width: 70%;
+    margin-top: 25px;
+    border: none;
+    background-color: #0000;
+    border-bottom: #23238E solid 2px;
+}#cadastro form button{
+    height: 40px;
+    width: 60%;
+    border-radius: 6px;
+    margin-top: 35px;
+    background-color: var(--vermelhoFraco);
+    border: none;
+    color: black;
+}#cadastro form button:hover{
+    background-color: var(--VermelhoFOrte);
+    color: black;
+}a{
+    text-decoration: none;
+    color: black;
+}
+/*End Cadastro*/
+/*End Acesso*/
+
+/*Quem somos*/
+#QuemSomos{
+    width: 100%;
+    height: 350px;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--AzulFraco);
+    text-align: center;
+
+}#QuemSomos #content{
+    height: 270px;
+    width: 20%;
+    margin-top: 0px;
+    justify-content: space-around;
+    text-align: center;
+}#QuemSomos #content1{
+    height: 270px;
+    width: 20%;
+    margin-top: 90px;
+    justify-content: space-around;
+    text-align: center;
+}#QuemSomos #conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}#QuemSomos #content #img-content{
+    width: 100%;
+    height:150px;
+    border-radius: 15px;
+}#QuemSomos #content1 #img-content{
+    width: 100%;
+    height:150px;
+    border-radius: 15px;
+}#QuemSomos h1{
+    margin-top: -10px;    
+    font-family: fortune;
+    font-size: 60px;
+}
+
+
+
+
+/*End Quem somos*/
+
+/*Footer*/
+
+footer{
+    width: 100%;
+    height: 30px;
+    background-color: var(--AzulForte);
+    color: white;
+}footer nav{
+    width: 100%;
+} footer ul{
+    list-style: none;
+    font-size: 20px;
+}footer li{
+    float: left;
+    margin-right: 25px;
+    margin-left:-5px ;
+    margin-top: 5px;
+    color: white;
+}footer li #es{
+    float: right;
+    margin-right: 10px;
+    color: white;
+}footer li a{
+    text-decoration: none;
+    color: white;
+}footer li a:hover{
+    color: var(--Branco);
+}
+/* End footer*/
